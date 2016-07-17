@@ -3,6 +3,9 @@ SnapshotTree
 
 Tree-like structure supporting multi-reader snapshot iteration with partial support for multiple writers.  Stored records must be copy constructible and comparable.
 
+Note: After some consideration, I've decided to work on a snapshot vector/deque
+implementation before returning to this project.
+
 Usage
 =====
 
